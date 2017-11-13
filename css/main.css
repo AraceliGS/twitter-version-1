@@ -1,8 +1,119 @@
 /* Colores a usar:
    Color de twitter: #1da1f2;
-   Color de background: 17E0EA;
+   Color de background: 13BEEC;
    Color de título: #FFF;
-   Color para cierto texto: #1362EC;
+   Color para cierto texto: #1362EC;136FEC #1F618D
 */
 
-/* Estilos generales */
+/* General styles*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../assets/images/background.jpg);
+  background-repeat: no-repeat;
+  font-family: monospace;
+  width: 1366px;
+}
+
+/* Styles for header */
+
+header {
+  background-color: #13BEEC;
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+  padding: 0.8% 0 0.8%;
+}
+
+h1 {
+  /*outline: 3px solid white;*/
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Styles for main*/
+
+main {
+  outline: 1px solid purple;
+  width: 100%;
+  height: 350px;
+  margin: 0 auto 0;
+}
+
+.container {
+  outline: 1px solid gold;
+  margin: 0.5% auto 0;
+  min-width: 80%;
+}
+/* Styles for the 1st div element */
+
+.user-intro {
+  outline: 1px solid green;
+  display: inline-block;
+  background-color: #FFF;
+  height: 230px;
+  width: 550px;
+  line-height: 1.8em;
+  position: relative;
+  left: 132px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 6.8%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+}
+
+p {
+  font-size: 1.2em;
+  padding-left: 5%;
+}
+
+hr {
+  margin: 5% 0;
+}
+
+#code {
+  color: #1F618D;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+
+/* Styles for the 2nd div element */
+
+.user-message {
+  outline: 1px solid yellow;
+  display: inline-block;
+  background-color: #FFF;
+  padding: 0 1%;
+  height: 250px;
+  width: 570px;
+  position: relative;
+  top: 25px;
+  left: 140px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.user-message hr {
+  color: #1F618D;
+}
+
+button {
+  border: none;
+  outline: 0;
+  color: #FFF;
+  background-color: #13BEEC;
+  padding: 2% 5%;
+  text-transform: uppercase;
+}
