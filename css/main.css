@@ -3,6 +3,7 @@
    Color de background: 13BEEC;
    Color de título: #FFF;
    Color para cierto texto: #1362EC;136FEC #1F618D
+   Plomizo claro: #EFEFEF;
 */
 
 /* General styles*/
@@ -17,7 +18,7 @@ body {
   background-image: url(../assets/images/background.jpg);
   background-repeat: no-repeat;
   font-family: monospace;
-  width: 1366px;
+  width: 1366px || 100%;
 }
 
 /* Styles for header */
@@ -75,8 +76,12 @@ p {
   padding-left: 5%;
 }
 
-hr {
+ hr {
   margin: 5% 0;
+}
+
+.user-intro hr {
+  border: 1px solid #EFEFEF;
 }
 
 #code {
@@ -106,7 +111,7 @@ textarea {
 }
 
 .user-message hr {
-  color: #1F618D;
+  border: 1px solid #1F618D;
 }
 
 button {
