@@ -1,9 +1,8 @@
 /* Colores a usar:
-   Color de twitter: #1da1f2;
    Color de background: 13BEEC;
    Color de título: #FFF;
-   Color para cierto texto: #1362EC;136FEC #1F618D
-   Plomizo claro: #EFEFEF;
+   Azul oscuro: #1F618D
+   Plomizo claro: #EFEFEF
 */
 
 /* General styles*/
@@ -33,7 +32,6 @@ header {
 }
 
 h1 {
-  /*outline: 3px solid white;*/
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -41,7 +39,6 @@ h1 {
 /* Styles for main*/
 
 main {
-  outline: 1px solid purple;
   width: 100%;
   height: 350px;
   margin: 0 auto 0;
@@ -49,79 +46,90 @@ main {
 }
 
 .container {
-  outline: 1px solid gold;
   margin: 0.5% auto 0;
   max-width: 80%;
   min-height: 350px;
   position: relative;
   bottom: 15%;
 }
+
 /* Styles for the 1st div element */
 
 .user-intro {
-  outline: 1px solid green;
   display: inline-block;
   background-color: #FFF;
-  height: 300px; /*230px*/
-  width: 620px; /*550px*/
+  height: 300px; 
+  width: 620px; 
   line-height: 1.8em;
   position: relative;
   top: 10px;
-  left: 130px; /*130px*/
+  left: 130px; 
 }
 
 h3 {
-  font-size: 1.5em;
-  margin-top: 6.8%;
-  padding-bottom: 2%;
+  font-size: 2em;
+  margin-top: 7.5%;
+  margin-bottom: 4%;
   padding-left: 5%;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding-left: 5%;
+  margin-top: 5.3%;
+  line-height: 1.5;
 }
 
  .user-intro hr {
-  margin: 5% 0;
-}
-
-.user-intro hr {
+  margin: 4.3% 0 0;
   border: 1px solid #EFEFEF;
 }
 
 #code {
   color: #1F618D;
-  font-size: 1.3em;
+  font-size: 1.7em;
   font-weight: 700;
   text-transform: uppercase;
-  padding-top: 2px;
+  padding-top: 7px;
 }
 
 /* Styles for the 2nd div element */
 
 .user-message {
-  outline: 1px solid yellow;
   display: inline-block;
   background-color: #FFF;
   padding: 0 1%;
-  height: 250px; /*250px*/
-  width: 650px;  /*570px*/
+  height: 250px; 
+  width: 650px;  
   position: relative;
   top: 25px;
-  left: 138px; /*138px*/
+  left: 138px; 
+  overflow: auto;
 }
 
 textarea {
+  outline: none;
   width: 100%;
+  height: 100px;
   margin-top: 2.5%;
   margin-bottom: 1%;
   border: none;
 }
 
+[placeholder] {
+  font-size: 1.5em;
+}
+
 .user-message hr {
   border: 1px solid #1F618D;
   margin: 3% 0 5%;
+}
+
+label {
+  font-size: 1.9em;
+  color: #1F618D;
+  float: right;
+  margin-left: 5%;
 }
 
 button {
@@ -131,4 +139,23 @@ button {
   background-color: #13BEEC;
   padding: 2% 5%;
   text-transform: uppercase;
+  font-weight: 800;
+}
+
+/* Styles for section */
+
+section {
+  position: relative;
+  bottom: 12px;
+}
+
+.divText {
+  background-color: #FFF;
+  width: 90%;
+  height: 90px;
+  color: #000;
+  font-size: 1.5em;
+  margin: 0 auto 30px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
