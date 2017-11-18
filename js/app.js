@@ -1,4 +1,4 @@
-// Para que estos eventos ocurran cuando la página haya cargado completamente, usó el evento load
+// Para que estos eventos ocurran cuando la página haya cargado completamente, uso el evento load
 
 window.addEventListener('load', function() {
   var button = document.querySelector('button');

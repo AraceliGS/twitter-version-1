@@ -5,7 +5,7 @@
    Plomizo claro: #EFEFEF
 */
 
-/* General styles*/
+/* Estilos generales */
 
 * {
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
   width: 1366px || 100%;
 }
 
-/* Styles for header */
+/* Estilos para el encabezado */
 
 header {
   background-color: #13BEEC;
@@ -36,7 +36,7 @@ h1 {
   letter-spacing: 1px;
 }
 
-/* Styles for main*/
+/* Estilos para el contenido principal */
 
 main {
   width: 100%;
@@ -53,7 +53,7 @@ main {
   bottom: 15%;
 }
 
-/* Styles for the 1st div element */
+/* Estilos para el primer elemento div */
 
 .user-intro {
   display: inline-block;
@@ -93,7 +93,7 @@ p {
   padding-top: 7px;
 }
 
-/* Styles for the 2nd div element */
+/* Estilos para el segundo elemento div*/
 
 .user-message {
   display: inline-block;
@@ -142,7 +142,7 @@ button {
   font-weight: 800;
 }
 
-/* Styles for section */
+/* Estilos para la sección y las cajas contenidas en él */
 
 section {
   position: relative;
